@@ -1,36 +1,13 @@
-# Quiz-app
+# Quiz App
 
-## Getting Started
+It's been a while since I've done any personal projects, so I decided to create a project which builds on the skills I've learned professionally while of course, developing new ones.
 
-After you have cloned this repo, run this setup script to set up your machine
-with the necessary dependencies to run and test this app:
+The goal of this project is to create an application where users can create quizzes, and then users can initialize sessions to take quizzes.
 
-    % ./bin/setup
+My goal is for quizzes to have the option of displaying questions and answers as multiple choice, or accepting user input directly.
 
-It assumes you have a machine equipped with Ruby, Postgres, etc. If not, set up
-your machine with [this script].
+I've used [Suspenders by Thoughtbot](https://github.com/thoughtbot/suspenders) for my rails template to get me started quickly.
 
-[this script]: https://github.com/thoughtbot/laptop
+I hope for this to be a Javasript heavy application and utilize a 'modern' framework as thats probably my weakpoint as a developer at the moment.
 
-After setting up, you can run the application using [Heroku Local]:
-
-    % heroku local
-
-[Heroku Local]: https://devcenter.heroku.com/articles/heroku-local
-
-## Guidelines
-
-Use the following guides for getting things done, programming well, and
-programming in style.
-
-* [Protocol](http://github.com/thoughtbot/guides/blob/master/protocol)
-* [Best Practices](http://github.com/thoughtbot/guides/blob/master/best-practices)
-* [Style](http://github.com/thoughtbot/guides/blob/master/style)
-
-## Deploying
-
-If you have previously run the `./bin/setup` script,
-you can deploy to staging and production with:
-
-    $ ./bin/deploy staging
-    $ ./bin/deploy production
+Initial development began Monday, 6/19/2017.
