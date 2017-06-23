@@ -13,6 +13,7 @@ class QuizzesController < ApplicationController
   # GET /quizzes/new
   def new
     @quiz = Quiz.new
+    @quiz.questions.build
   end
 
   # GET /quizzes/1/edit
